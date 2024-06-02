@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "c95acbbcd8178af4",
+    "type": "split",
+    "children": [
+      {
+        "id": "df2fb0824d48787c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0724af3a5f4083e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Electronic Circuits/Resistive Circuits.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8934d16a01e95b7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "086f0f46cf8e65b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf1861dcc6acc588",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2502eadbe3934c30",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7cd7cc591296bc35",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d7d8726cfae4ec86",
+    "type": "split",
+    "children": [
+      {
+        "id": "679e32e43b0a2456",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3118d03dcb6a7d28",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Electronic Circuits/Resistive Circuits.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "694ff61f063ecbf7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Electronic Circuits/Resistive Circuits.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "962243f833e73338",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b3aad003446cee80",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Electronic Circuits/Resistive Circuits.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "0724af3a5f4083e4",
+  "lastOpenFiles": [
+    "z_extras/images/Basic-Engineering-Circuit-Analysis.pdf",
+    "z_extras/images/Basic-Engineering-Circuit-Analysis.pdf.crdownload",
+    "z_extras/images/Pasted image 20240602223012.png",
+    "z_extras/images/node-loop.jpg",
+    "z_extras/images/node-loop.jpg.crdownload",
+    "Electronic Circuits/Resistive Circuits.md",
+    "Electronic Circuits/Basic Concepts.md",
+    "Electronic Circuits/Nodal and Loop analysis.md",
+    "Electronic Devices/Resistors.md",
+    "z_extras/images/resistors.jpg",
+    "z_extras/images/resistors.jpg.crdownload",
+    "z_extras/images/pcb.jpg",
+    "z_extras/images/pcb.jpg.crdownload",
+    "z_extras/images/mess.jpg",
+    "z_extras/images/mess.jpg.crdownload",
+    "z_extras/images/circleoflife.gif",
+    "z_extras/images/circleoflife.gif.crdownload",
+    "z_extras/images/basic.png",
+    "z_extras/images/basic.png.crdownload",
+    "z_extras/images/resistive PCB.jpg",
+    "z_extras/images/resistive PCB.jpg.crdownload",
+    "z_extras/images",
+    "z_extras/snippets.css",
+    "Welcome.md",
+    "Digital Logic/Untitled.md"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "encore-settings@@theme-dark": "encore-theme-dark-cobalt",
+  "encore-settings@@theme-light": "encore-theme-light-sterling",
+  "encore-settings@@encore-translucency-background": "encore-bg-image",
+  "encore-settings@@encore-translucency-blur-amount": 0,
+  "encore-settings@@encore-translucency": true,
+  "encore-settings@@encore-translucency-image": "url(\"https://preview.redd.it/zelda-botw-in-studio-ghibli-style-1280x-720-v0-4ri5m3ye1qab1.png?width=640&crop=smart&auto=webp&s=b753d76083748086c126f4ca3c6ea5d106c2a8dc\")"
+}
