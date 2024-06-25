@@ -112,4 +112,3 @@ A two-terminal element that maintains a specified voltage or current across its 
 ### Dependent Sources
 In contrast to independent sources, the dependent sources produce a given voltage or current dependent on other factors in the network. MOSFETS and other transistors are examples of elements that are modelled as dependent sources. 
 
-## Examples and Problems

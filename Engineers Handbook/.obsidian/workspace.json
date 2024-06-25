@@ -8,14 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0724af3a5f4083e4",
+            "id": "4cb20cb437b22187",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Electronic Circuits/Resistive Circuits.md",
-                "mode": "source",
-                "source": false
+                "file": "Electronic Circuits/Operational Amplifiers.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d7d8726cfae4ec86",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electronic Circuits/Resistive Circuits.md",
+                "file": "Electronic Circuits/Operational Amplifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Electronic Circuits/Resistive Circuits.md",
+                "file": "Electronic Circuits/Operational Amplifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Electronic Circuits/Resistive Circuits.md"
+                "file": "Electronic Circuits/Operational Amplifiers.md"
               }
             }
           }
@@ -149,31 +148,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0724af3a5f4083e4",
+  "active": "4cb20cb437b22187",
   "lastOpenFiles": [
+    "Electronic Circuits/Resistive Circuits.md",
+    "Electronic Circuits/Operational Amplifiers.md",
+    "z_extras/images/Pasted image 20240614203453.png",
+    "z_extras/images/Equivalent-circuit-model-of-op-amp-device-16.png",
+    "Electronic Circuits/Basic Concepts.md",
+    "Electronic Circuits/Nodal and Loop analysis.md",
+    "z_extras/images/What-is-an-operational-amplifier_1_en.png",
+    "z_extras/images/Op-Amps-950x500.webp",
+    "Electronic Circuits/Examples and Problems/Assesments",
+    "Electronic Circuits/Examples and Problems/Exams",
+    "Electronic Circuits/Examples and Problems",
+    "z_extras/images/Pasted image 20240603102313.png",
+    "z_extras/images/Pasted image 20240603011853.png",
     "z_extras/images/Basic-Engineering-Circuit-Analysis.pdf",
     "z_extras/images/Basic-Engineering-Circuit-Analysis.pdf.crdownload",
     "z_extras/images/Pasted image 20240602223012.png",
     "z_extras/images/node-loop.jpg",
     "z_extras/images/node-loop.jpg.crdownload",
-    "Electronic Circuits/Resistive Circuits.md",
-    "Electronic Circuits/Basic Concepts.md",
-    "Electronic Circuits/Nodal and Loop analysis.md",
     "Electronic Devices/Resistors.md",
     "z_extras/images/resistors.jpg",
     "z_extras/images/resistors.jpg.crdownload",
     "z_extras/images/pcb.jpg",
     "z_extras/images/pcb.jpg.crdownload",
-    "z_extras/images/mess.jpg",
     "z_extras/images/mess.jpg.crdownload",
-    "z_extras/images/circleoflife.gif",
     "z_extras/images/circleoflife.gif.crdownload",
-    "z_extras/images/basic.png",
-    "z_extras/images/basic.png.crdownload",
-    "z_extras/images/resistive PCB.jpg",
-    "z_extras/images/resistive PCB.jpg.crdownload",
-    "z_extras/images",
-    "z_extras/snippets.css",
     "Welcome.md",
     "Digital Logic/Untitled.md"
   ]

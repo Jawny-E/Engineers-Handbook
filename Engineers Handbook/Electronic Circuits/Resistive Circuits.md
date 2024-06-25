@@ -126,17 +126,111 @@ $$
 $$
 
 ##### Multiple sources and resistors
-Whenever you have a single-loop circuit of passive components your end goal should always be to find the **equivalent circuit**
+Whenever you have a single-loop circuit of passive components your end goal should always be to find the **equivalent circuit**. In this simple chapter this means condensing the sources and resistors to as few components as possible applying [[Resistive Circuits#Kirchoff's Current Law (KCL)|KCL]] and [[Resistive Circuits#Kirchoff's Voltage law (KVL)|KVL]].
+It is here noted that the *equivalent resistance of N resistors in series is simply the sum of all individual resistances*
 ## Single Node-Pair Circuits
-![[Resistive Circuits#Single Loop Circuits#Problem Solving Strategy]]#
+##### Problem Solving Strategy 
+1. Define a voltage *v(t)* between the two nodes of the circuit. [[#Kirchoff's Voltage law (KVL)|KVL]] tells us that there is only one voltage for a single node-pair-circuit.  A polarity is assigned to the voltage such that one of the nodes is assumed to be at a higher potential than the other node, which we will call the reference node
+2. Using [[Resistive Circuits#Ohm's Law|Ohm's law]], define a current flowing through each resistor in terms of the defined voltage
+3. Apply [[Resistive Circuits#Kirchoff's Current Law (KCL)|KCL]] at one of the two nodes in the circuit 
+4. Solve the single KCL equation for *v(t)*. If this value is positive then the reference node is the a lower potential than the other node.
+##### Current Division
+![[Pasted image 20240603011853.png]]
+The goal of this passage is to first find a formula for equivalent parallel resistance, then further find a formula for the current division.
+We see that *v(t)* must be the same over the two resistors, and further apply [[#Kirchoff's Current Law (KCL)|KCL]] giving us
+$$
+\begin{align}
+i(t)=i_1(t)+i_2(t)
+\end{align}
+$$
+after applying [[#Ohm's Law]] we can now find an expression for the equivalent resistance
+$$
+\begin{align}
+i(t)=\frac{v(t)}{R_1}+\frac{v(t)}{R_2}\\ \\
+i(t)=\left( \frac{1}{R_1}+\frac{1}{R_2}\right)\cdot v(t) \\\\
+i(t)=\frac{v(t)}{R_P}, \text{  where  } \frac{1}{R_P}=\frac{1}{R_1}+\frac{1}{R_2}
+\end{align}
+$$
+Using some *algebra* we can then mix everything around
+$$
+\begin{align}
+\frac{1}{R_P}=\frac{1}{R_1}+\frac{1}{R_2} \\\\
+1=\frac{R_P}{R_1}+\frac{R_P}{R_2}\\ \\
+R_1=R_P+\frac{R_P\cdot R_1}{R_2}\\ \\
+R_1\cdot R_2 = R_P\cdot R_2 +R_P\cdot R_1 \\ \\
+R_1\cdot R_2 = R_P (R_2 + R_1) \\ \\  
+ \frac{R_1\cdot R_2}{R_2 + R_1} = R_P \tag{2.17}
+\end{align}
+$$
+But I digress, we can now use all of this information to find an expression for $i_1(t)$ and $i_2(t)$. 
+$$
+\begin{align} \\
+v(t)=R_P\cdot i(t) \\\\
+v(t)=\frac{R_1\cdot R_2}{R_2 + R_1}\cdot i(t) \tag{2.18}\\\\
+i_1(t)=\frac{v_1}{R_1} \\ \\
+i_1(t)=\frac{i(t)\cdot R_P}{R_1}\\ \\
+i_1(t)=\frac{i(t)}{R_1} \frac{R_1\cdot R_2}{R_1 + R_2}\\ \\
+i_1(t) = i(t)\cdot\left(\frac{R_2}{R_1+R_2} \right)\tag{2.19}
+\end{align}
+$$
+Following the same steps we can get the expression for $i_2(t)$
+$$
+\begin{align} \\
+i_2(t)=i(t)\cdot \frac{R_1}{R_1+R_2}
+\end{align}
+$$
+
+##### Multiple Source/Resistor Networks
+The goal is once again here to find the simplest possible equivalent circuit to determine the constants of the circuit. Combine sources and resistors.
+This chapter further proves that we can find the equivalent resistance of multiple resistors connected in parallel
+$$
+\begin{align}
+\frac{1}{R_P}=\sum_{i=1}^{N} \frac{1}{R_i} \tag {2.23}
+\end{align}
+$$
+
 
 ## Series and Parallel Resistors
+This chapter mostly consists of examples 
+##### Problem Solving Strategy
+ 1. Systematically reduce the resistive network so that the resistance seen by the source is represented by a single resistor. 
+ 2. Determine the source current for a voltage source or the source voltage if a current source is present.
+ 3. Expand the network, retracing the simplification steps, and apply Ohm’s law, KVL, KCL, voltage division, and current division to determine all currents and voltages in the network.
+## Wye-Delta transformations
+![[Pasted image 20240603102313.png]]
+We use the terminal points to analyse and find the equivalent resistance
+$$
+\begin{align}
+R_{ab}=R_a+R_b=\frac{R_2(R_1+R_3)}{R_1+R_2+R_3}\\ \\
+R_{ab}=R_b+R_c=\frac{R_3(R_1+R_2)}{R_1+R_2+R_3}\tag{2.27}\\ \\
+R_{ab}=R_a+R_c=\frac{R_1(R_2+R_3)}{R_1+R_2+R_3}
+\end{align}
+$$
+Solving 2.27 gives us the following sets:
+$$
+\begin{align}
+R_{a}=\frac{(R_1\cdot R_2)}{R_1+R_2+R_3}\\ \\
+R_{b}=\frac{(R_2\cdot R_3)}{R_1+R_2+R_3}\tag{2.28}\\ \\
+R_{c}=\frac{(R_1\cdot R_3)}{R_1+R_2+R_3}\\ \\
+\end{align}
+$$
+$$
+\begin{align}
+R_{1}=\frac{R_a\cdot R_b + R_c\cdot R_b+ R_a\cdot R_c}{R_b}\\ \\
+R_{2}=\frac{R_a\cdot R_b + R_c\cdot R_b+ R_a\cdot R_c}{R_c}\tag{2.28}\\ \\
+R_{3}=\frac{R_a\cdot R_b + R_c\cdot R_b+ R_a\cdot R_c}{R_a}\\ \\
+\end{align}
+$$
+In the case where $R_1=R_2=R_3$ and $R_a=R_b=R_c$ we can reduce these sets to:
+$$
+\begin{align}
+R_Y=\frac{1}{3}R_\Delta \\\\
+R_\Delta=3\cdot R_Y 
+\end{align}
+$$
+## Dependent sources
+We will for now forgo the problem solving strategy of such circuits as it is mere algebra. We can here note that dependent sources are a model of devices such as [[Bipolar Junction Transistors]], [[Field Effect Transistors]], [[Metal-Oxide-Semiconductor Field-Effect Transistors]], and [[Insulated-gate field-effect transistors]]. :)
 
-## Wye - Delta Transformation
-
-## Dependent Sources in Circuits
-
-## Examples and Problems
 
 
 
