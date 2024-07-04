@@ -1,8 +1,9 @@
 {
   "accentColor": "#0dd0f8",
   "theme": "obsidian",
-  "cssTheme": "Encore",
+  "cssTheme": "Obsidian Nord",
   "textFontFamily": "Cambria,Century Schoolbook",
   "baseFontSizeAction": true,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "baseFontSize": 19
 }

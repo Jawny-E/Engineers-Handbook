@@ -1,0 +1,2 @@
+## Yet Another Markup Language
+is a popular **data serialization language**, used for defining and managing Infrastructure as a Code, managing configuration for various tools, defining CI/CD Pipelines and integrating other tech lik JSON, XML, Python etc

@@ -4,95 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "df2fb0824d48787c",
+        "id": "47345c6e41bcadfe",
         "type": "tabs",
         "children": [
           {
-            "id": "4cb20cb437b22187",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electronic Circuits/Operational Amplifiers.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ec8a9ad33e11d3d6",
+            "id": "c25ad0e2f5b21dd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "a_summer2024/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e1fdd3295c4c7e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a_summer2024/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d50b6e3e40317f05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a_summer2024/Ansible.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4853fc7f1bd211f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a_summer2024/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbf8c12d3140bd00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a_summer2024/Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0517308a34d783e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "a_summer2024/Windows Subsystem for Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,12 +64,24 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "b80fa259d5cc1956",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "a_summer2024/Linux Enviroment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 218.5
   },
   "right": {
     "id": "d7d8726cfae4ec86",
@@ -158,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "a_summer2024/Windows Subsystem for Linux.md",
+                "file": "a_summer2024/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "a_summer2024/Windows Subsystem for Linux.md",
+                "file": "a_summer2024/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,11 +137,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "a_summer2024/Windows Subsystem for Linux.md"
+                "file": "a_summer2024/Kubernetes.md"
               }
             }
+          },
+          {
+            "id": "85d293d4931f4613",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -221,39 +169,46 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cf1861dcc6acc588",
+  "active": "c25ad0e2f5b21dd0",
   "lastOpenFiles": [
-    "a_summer2024/Docker.md",
-    "a_summer2024/Windows Subsystem for Linux.md",
-    "a_summer2024/Kubernetes.md",
-    "a_summer2024/Programming.md",
-    "a_summer2024/Ansible.md",
     "a_summer2024/Grafana.md",
+    "a_summer2024/Linux Enviroment.md",
+    "a_summer2024/Kubernetes.md",
+    "a_summer2024/Ansible.md",
+    "a_summer2024/DevOps.md",
+    "a_summer2024/Windows Subsystem for Linux.md",
+    "a_summer2024/Programming.md",
+    "a_summer2024/Source Code Management.md",
+    "Electronic Circuits/Nodal and Loop analysis.md",
+    "a_summer2024/YAML.md",
+    "z_extras/images/Pasted image 20240630135950.png",
+    "a_summer2024/Docker.md",
+    "a_summer2024/aa_Randomnotes.md",
+    "z_extras/images/Kubernetes.webp",
+    "z_extras/images/Kubernetes.webp.crdownload",
+    "z_extras/images/TERMINAL2.png",
+    "z_extras/images/TERMINAL2.png.crdownload",
+    "z_extras/images/terminal.jpg",
+    "z_extras/images/terminal.jpg.crdownload",
+    "a_summer2024/Virtual Machines.md",
+    "z_extras/images/kubernetes.png",
+    "z_extras/images/kubernetes.png.crdownload",
+    "Electronic Devices/Resistors.md",
+    "a_summer2024/A_Dictonary.md",
     "Electronic Circuits/Operational Amplifiers.md",
     "a_summer2024",
     "Electronic Circuits/Resistive Circuits.md",
     "z_extras/images/Pasted image 20240614203453.png",
     "z_extras/images/Equivalent-circuit-model-of-op-amp-device-16.png",
     "Electronic Circuits/Basic Concepts.md",
-    "Electronic Circuits/Nodal and Loop analysis.md",
     "z_extras/images/What-is-an-operational-amplifier_1_en.png",
     "z_extras/images/Op-Amps-950x500.webp",
     "Electronic Circuits/Examples and Problems/Assesments",
     "Electronic Circuits/Examples and Problems/Exams",
     "Electronic Circuits/Examples and Problems",
     "z_extras/images/Pasted image 20240603102313.png",
-    "z_extras/images/Pasted image 20240603011853.png",
     "z_extras/images/Basic-Engineering-Circuit-Analysis.pdf",
     "z_extras/images/Basic-Engineering-Circuit-Analysis.pdf.crdownload",
-    "z_extras/images/Pasted image 20240602223012.png",
-    "z_extras/images/node-loop.jpg",
-    "z_extras/images/node-loop.jpg.crdownload",
-    "Electronic Devices/Resistors.md",
-    "z_extras/images/resistors.jpg",
-    "z_extras/images/resistors.jpg.crdownload",
-    "z_extras/images/pcb.jpg",
-    "z_extras/images/pcb.jpg.crdownload",
-    "z_extras/images/mess.jpg.crdownload",
     "Welcome.md",
     "Digital Logic/Untitled.md"
   ]

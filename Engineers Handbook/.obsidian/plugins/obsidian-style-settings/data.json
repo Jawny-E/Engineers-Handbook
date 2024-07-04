@@ -4,5 +4,11 @@
   "encore-settings@@encore-translucency-background": "encore-bg-image",
   "encore-settings@@encore-translucency-blur-amount": 0,
   "encore-settings@@encore-translucency": true,
-  "encore-settings@@encore-translucency-image": "url(\"https://preview.redd.it/zelda-botw-in-studio-ghibli-style-1280x-720-v0-4ri5m3ye1qab1.png?width=640&crop=smart&auto=webp&s=b753d76083748086c126f4ca3c6ea5d106c2a8dc\")"
+  "encore-settings@@encore-translucency-image": "url(\"https://preview.redd.it/zelda-botw-in-studio-ghibli-style-1280x-720-v0-4ri5m3ye1qab1.png?width=640&crop=smart&auto=webp&s=b753d76083748086c126f4ca3c6ea5d106c2a8dc\")",
+  "encore-settings@@encore-fancy-headers": true,
+  "encore-settings@@encore-custom-h2@@dark": "#96FFFA",
+  "encore-settings@@encore-custom-h3@@dark": "#70FEFD",
+  "encore-settings@@encore-custom-h4@@dark": "#1DC4BC",
+  "encore-settings@@encore-custom-h5@@dark": "#1FAEAD",
+  "encore-settings@@encore-custom-h1@@dark": "#D9FFFC"
 }
